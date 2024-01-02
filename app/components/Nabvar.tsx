@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
+import ThemeSwitch from './ThemeSwitch'
 
 const Nabvar = () => {
   return (
@@ -8,7 +9,7 @@ const Nabvar = () => {
             <Link href="/">
                 <div>Blog AM</div>
             </Link>
-            <div>theme</div>
+            <ThemeSwitch />
         </div>
     </div>
   )
