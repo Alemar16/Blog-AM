@@ -93,7 +93,7 @@ export const MoonIcon = () => {
       viewBox="0 0 32 32"
       version="1.1"
       xmlns="http://www.w3.org/2000/svg"
-      stroke="#ffffff"
+      stroke="#000000"
     >
       <g id="SVGRepo_bgCarrier" stroke-width="0" />
 
