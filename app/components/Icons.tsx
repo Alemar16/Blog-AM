@@ -6,7 +6,7 @@ export const SunIcon = () => {
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      stroke="#a955f7"
+      stroke="#fff8e1 "
     >
       <g id="SVGRepo_bgCarrier" stroke-width="0" />
 
@@ -20,61 +20,61 @@ export const SunIcon = () => {
         {" "}
         <path
           d="M15 12C15 13.6569 13.6569 15 12 15C10.3431 15 9 13.6569 9 12C9 10.3431 10.3431 9 12 9C13.6569 9 15 10.3431 15 12Z"
-          stroke="#a955f7"
+          stroke="#fff8e1 "
           stroke-width="2"
         />{" "}
         <path
           d="M12 5V3"
-          stroke="#a955f7"
+          stroke="#fff8e1 "
           stroke-width="2"
           stroke-linecap="round"
           stroke-linejoin="round"
         />{" "}
         <path
           d="M17 7L19 5"
-          stroke="#a955f7"
+          stroke="#fff8e1 "
           stroke-width="2"
           stroke-linecap="round"
           stroke-linejoin="round"
         />{" "}
         <path
           d="M19 12H21"
-          stroke="#a955f7"
+          stroke="#fff8e1 "
           stroke-width="2"
           stroke-linecap="round"
           stroke-linejoin="round"
         />{" "}
         <path
           d="M17 17L19 19"
-          stroke="#a955f7"
+          stroke="#fff8e1 "
           stroke-width="2"
           stroke-linecap="round"
           stroke-linejoin="round"
         />{" "}
         <path
           d="M12 19V21"
-          stroke="#a955f7"
+          stroke="#fff8e1 "
           stroke-width="2"
           stroke-linecap="round"
           stroke-linejoin="round"
         />{" "}
         <path
           d="M7 17L5 19"
-          stroke="#a955f7"
+          stroke="#fff8e1 "
           stroke-width="2"
           stroke-linecap="round"
           stroke-linejoin="round"
         />{" "}
         <path
           d="M5 12H3"
-          stroke="#a955f7"
+          stroke="#fff8e1 "
           stroke-width="2"
           stroke-linecap="round"
           stroke-linejoin="round"
         />{" "}
         <path
           d="M5 5L7 7"
-          stroke="#a955f7"
+          stroke="#fff8e1 "
           stroke-width="2"
           stroke-linecap="round"
           stroke-linejoin="round"
@@ -87,13 +87,13 @@ export const SunIcon = () => {
 export const MoonIcon = () => {
   return (
     <svg
-      fill="#ffffff"
+      fill="#a955f7 "
       width="24px"
       height="24px"
       viewBox="0 0 32 32"
       version="1.1"
       xmlns="http://www.w3.org/2000/svg"
-      stroke="#000000"
+      stroke="#a955f7 "
     >
       <g id="SVGRepo_bgCarrier" stroke-width="0" />
 
