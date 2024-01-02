@@ -1,4 +1,10 @@
 import {client} from '@/sanity/lib/client'
+import Header from '../components/Header';
+
+interface Post {
+  _id: string;
+  title: string;
+}
 
 async function getPosts() {
   const query =
@@ -14,11 +20,18 @@ async function getPosts() {
 }
 
 export default async function Home() {
-  const posts = await getPosts()
+  const posts: Post[] = await getPosts()
   console.log(posts, 'posts')
   return (
 <div>
-  <h1>Hello World</h1>
-</div>
+  <Header title='Articles' />
+  <div>
+    {posts?.length > 0 && posts?.map((post) => (
+     <p key={post._id}>{post.title}</p> 
+       
+     ))}
+      </div>
+  </div>
+
   )
 }
