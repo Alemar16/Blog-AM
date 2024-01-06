@@ -5,6 +5,9 @@ import { Post } from "@/app/utils/interface";
 import { VT323 } from "next/font/google";
 import Link from "next/link";
 import { PortableText } from "@portabletext/react";
+import { urlForImage } from "@/sanity/lib/image";
+import Image from "next/image";
+
 
 const dateFont = VT323({ weight: "400", subsets: ["latin"] });
 interface params {
@@ -54,7 +57,9 @@ const page = async ({ params }: params) => {
         </div>
 
         <div className="richTextStyles">
-        <PortableText value={post?.body} />
+        <PortableText value={post?.body}
+        components={ myPortableTextComponents }
+        />
         </div>
 
       </div>
@@ -62,7 +67,23 @@ const page = async ({ params }: params) => {
   );
 };
 
+
 export default page;
+
+const myPortableTextComponents = {
+    types: {
+      image: ({value}: any) => (
+      <Image 
+      src={urlForImage(value).url()} 
+      alt="Pots"
+      width={700}
+      height={500}
+      />
+      )
+    },
+  
+  }
+  
 
 const richTextStyles = `
 mt-14 
