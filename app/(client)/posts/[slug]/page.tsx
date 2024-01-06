@@ -83,12 +83,14 @@ export default page;
 const myPortableTextComponents = {
   types: {
     image: ({ value }: any) => (
-      <Image
-        src={urlForImage(value).url()}
-        alt="Post"
-        width={700}
-        height={500}
-      />
+      <div className="rounded-lg overflow-hidden shadow-lg">
+        <Image
+          src={urlForImage(value).url()}
+          alt="Post"
+          width={700}
+          height={500}
+        />
+      </div>
     ),
   },
 };
