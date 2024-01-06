@@ -1,9 +1,8 @@
-import React from "react";
 import Link from "next/link";
 import { Lilita_One } from "next/font/google";
 import { BackArrowIcon } from "./Icons";
 
-const lilitaOne = Lilita_One({ weight: "400", subsets: ["latin"] });
+const font = Lilita_One({ weight: "400", subsets: ["latin"] });
 
 const CmsNavbar = () => {
   return (
@@ -11,9 +10,10 @@ const CmsNavbar = () => {
       <Link href="/">
         <BackArrowIcon />
       </Link>
-      <div className={`${lilitaOne.className} text-3xl dark:text-amber-50`}>
-        Blog
-        <span className="text-purple-500">AM</span>
+
+      <div className={`${font.className} text-3xl dark:text-amber-50`}>
+        Dev
+        <span className="text-purple-500">Blook</span>
       </div>
     </div>
   );
