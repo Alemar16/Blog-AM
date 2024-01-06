@@ -87,3 +87,55 @@ export const BackArrowIcon = () => {
     </svg>
   );
 };
+
+export const ReturnIcon = () => {
+  const iconStyle: React.CSSProperties = {
+    width: "48px",
+    height: "48px",
+    fill: "#777777",
+    stroke: "#777777",
+  };
+
+  const lineStyle: React.CSSProperties = {
+    fill: "none",
+    stroke: "#777777",
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: "32px",
+  };
+
+  return (
+    <svg
+      width="64px"
+      height="64px"
+      viewBox="0 0 512 512"
+      xmlns="http://www.w3.org/2000/svg"
+      style={iconStyle}
+    >
+      <g id="SVGRepo_bgCarrier" stroke-width="0" />
+
+      <g
+        id="SVGRepo_tracerCarrier"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        stroke="#777777CCCCCC"
+        strokeWidth="2.048"
+      />
+
+      <g id="SVGRepo_iconCarrier">
+        <title>ionicons-v5-c</title>
+
+        <polyline
+          points="112 352 48 288 112 224"
+          style={lineStyle}
+        />
+
+        <path
+          d="M64,288H358c58.76,0,106-49.33,106-108V160"
+          style={lineStyle}
+        />
+      </g>
+    </svg>
+  );
+};
+
