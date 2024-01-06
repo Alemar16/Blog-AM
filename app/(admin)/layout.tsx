@@ -1,6 +1,6 @@
 import CmsNavbar from "../components/CmsNavbar";
 import { Provider } from "../utils/Provider";
-import "./global.css";
+import "./globals.css";
 
 export const metadata = {
   title: "Next.js",
@@ -16,8 +16,8 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <Provider>
-        <CmsNavbar />
-        {children}
+          <CmsNavbar />
+          {children}
         </Provider>
       </body>
     </html>
